@@ -3,7 +3,7 @@ export default function Navbar() {
     <header className="bg-black text-white">
       <div className="container mx-auto py-6 flex flex-row justify-between items-center">
         <div>
-          <h1 className="text-2xl font-black">
+          <h1 className="text-3xl font-black">
             FOOT<span className="text-green-400">GOAL</span>
           </h1>
         </div>
@@ -24,7 +24,7 @@ export default function Navbar() {
           </ul>
         </nav>
         <div>
-          <h1 className="text-2xl font-black">
+          <h1 className="text-3xl font-black">
             FOOT<span className="text-green-400">GOAL</span>
           </h1>
         </div>

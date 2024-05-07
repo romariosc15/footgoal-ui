@@ -1,8 +1,10 @@
-import { Inter } from "next/font/google";
+import { Rajdhani } from "next/font/google";
 import "./_assets/globals.css";
-import Navbar from  "./_components/Navbar"
 
-const inter = Inter({ subsets: ["latin"] });
+const rajdhani = Rajdhani({
+  subsets: [],
+  weight: ["300", "400", "500", "600", "700"],
+});
 
 export const metadata = {
   title: "Footgoal",
@@ -12,8 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navbar />
+      <body className={rajdhani.className}>
         {children}
       </body>
     </html>
